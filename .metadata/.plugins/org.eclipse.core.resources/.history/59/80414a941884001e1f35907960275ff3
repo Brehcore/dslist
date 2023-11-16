@@ -1,0 +1,5 @@
+package com.coretechstudio.dslist.services;
+
+public class GameService {
+
+}
