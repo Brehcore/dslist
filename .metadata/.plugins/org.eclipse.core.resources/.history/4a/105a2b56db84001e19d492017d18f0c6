@@ -1,0 +1,5 @@
+package com.coretechstudio.dslist.entities.dto;
+
+public class GameDTO {
+
+}
