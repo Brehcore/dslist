@@ -29,6 +29,13 @@ public class GameController {
 	public List<GameMinDTO> findAll() {
 		List<GameMinDTO> result = gameService.findAll();
 		return result;
+	}
+	
+	@GetMapping(value = "/{listId}")
+	public List<GameMinDTO> finByList(@PathVariable Long listId) {
+		List<GameMinDTO> result = gameService.findAll();
+		return result;
 	}		
+
 
 }
