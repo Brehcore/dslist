@@ -1,5 +1,0 @@
-package com.coretechstudio.dslist.repositories;
-
-public interface GameRepository {
-
-}
